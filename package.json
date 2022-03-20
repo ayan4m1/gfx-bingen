@@ -9,7 +9,9 @@
     "gfx-bingen": "src/index.js"
   },
   "main": "src/index.js",
-  "files": ["src/index.js"],
+  "files": [
+    "src/index.js"
+  ],
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "eslint": "^8.11.0",
