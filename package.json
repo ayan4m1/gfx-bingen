@@ -1,0 +1,27 @@
+{
+  "name": "gfx-bingen",
+  "version": "0.1.0",
+  "description": "Generate C arrays for GFX from bitmaps",
+  "author": "ayan4m1 <andrew@bulletlogic.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "gfx-bingen": "src/index.js"
+  },
+  "main": "src/index.js",
+  "files": ["src/index.js"],
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.0"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "lodash.chunk": "^4.2.0",
+    "sharp": "^0.30.3"
+  }
+}
